@@ -1,0 +1,85 @@
+* {
+    margin: 0 auto;
+    text-align: center;
+}
+
+@font-face {
+    font-family: courier;
+    src: url("Courier New Bold.ttf") format("truetype");
+}
+
+body {
+    min-width: 500px;
+    font-size: 20px;
+}
+
+h1 {
+    
+}
+
+/*** Menú ***/
+
+#menu {
+    margin-top: 1em;
+}
+
+#label {
+    color: #d100d1;
+    margin-bottom: 2em;
+}
+
+.modo {
+    padding: 1em;
+    border: dashed 2px #ec0000;
+    text-decoration: none;
+    color: #00ac00;
+    transition: .3s;
+}
+
+.modo:hover {
+    font-size: 1.1em;
+    border-width: 3px;
+    transition: .3s;
+    font-weight: bold;
+}
+
+/*** Juego ***/
+
+#game {
+    margin: 10px 0;
+    vertical-align: bottom;
+    border: solid 0px black;
+    font-family: courier;
+    font-size: 26px;
+    font-weight: lighter;
+    line-height: .65em;
+}
+
+#score {
+    margin-right: 210px; 
+}
+
+.edges {
+    color: #ec0000;   
+}
+
+.rotate {
+    writing-mode: vertical-lr;
+    -moz-writing-mode: bt-rl;
+    -webkit-writing-mode: vertical-lr;
+    -ms-writing-mode: tb-lr;
+}
+
+.snake {
+    color: #00ac00;
+}
+
+.food {
+    color: #d100d1;
+}
+
+.touchBtn {
+    margin: .5em 3em;
+    width: 7em;
+    height: 5em;
+}
