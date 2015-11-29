@@ -84,7 +84,7 @@ function frame() {
 
 window.onkeydown = function(event) {
     var key = String.fromCharCode(event.keyCode);
-    if (key === ' ') {
+    if (key === 'P') {
         pause();
     }
     snake.setDirection(key);
