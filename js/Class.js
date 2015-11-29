@@ -34,7 +34,7 @@ Snake = function(keys) {    // up,down,left,right
 
 Snake.prototype.paint = paint;
 
-// checa si la cabeza de la serpiente está sobre algo
+// checa si la cabeza de la serpiente está sobre algo (colisión)
 Snake.prototype.colision = function() {
     var parts = this.parts;
     var head = this.parts[0];

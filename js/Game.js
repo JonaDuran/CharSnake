@@ -1,10 +1,11 @@
+/* Funciones principales del juego */
 
 function random (limit) {
     return Math.round(Math.random() * (limit - 3)) + 1;
 }
 
 
-// limpia la matriz de carácteres dejando solo los bordes
+// limpia la matriz de caracteres dejando solo los bordes
 function clean() {
     for (var i = 0; i < rows; i++) {        // rellena matriz
         for (var j = 0; j < columns; j++) {

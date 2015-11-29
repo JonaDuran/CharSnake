@@ -1,6 +1,7 @@
 
-/*** Configuración de Carácteres ***/
+/*** Configuración de Caracteres ***/
 
+// partes del escenario
 t = {
     edgeH: '<b class="edges">-</b>',
     edgeV: '<b class="edges rotate">-</b>',
@@ -9,6 +10,7 @@ t = {
     space: '&nbsp;'
 };
 
+// partes de la serpiente
 s = {
     bodyH: '<b class="snake">-</b>',
     bodyV: '<b class="snake rotate">-</b>',
