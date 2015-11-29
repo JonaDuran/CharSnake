@@ -32,6 +32,8 @@ window.onload = function() {
     div = 30;       // + chico + incremento de velocidad
     growing = 3;    // crecimiento por comida
     interval = setInterval(frame, time);
+    
+    pause();
 };
 
 function frame() {
