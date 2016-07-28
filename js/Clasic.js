@@ -36,7 +36,7 @@ window.onload = function() {
     
     interval = setInterval(frame, time);
     
-    pause();
+    //pause();
 };
 
 // redibuja el juego, inicialmente se ejecuta cada 120 milisegundos
