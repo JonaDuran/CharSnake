@@ -1,4 +1,9 @@
-# CharSnake
-Clasico juego de la serpiente creado con puro texto y JavaScript.
+CharSnake
+=========
 
-(Jugar aquí)[https://cdn.rawgit.com/JonaDuran/CharSnake/master/index.html]
+En si el juego es un párrafo de texto monoespaciado que se reescribe constantemente.   
+  
+Fue desarrollado con Javascript sin librerías. 
+
+
+[jugar aquí](https://rawgit.com/JonaDuran/CharSnake/master/gameModes/Clasic.html) 
